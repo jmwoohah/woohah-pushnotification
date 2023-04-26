@@ -23,7 +23,7 @@ There are two buttons here: "Start Searching" and "Stop Searching." The "Start S
 
 ## API Usage Log
 
-In this window, you can view a log of the current API status call quota. [See what each response means under the sample response example here:](https://api.jotform.com/docs/#user-usage). There is a refresh button so you can refresh the current data limit.
+In this window, you can view a log of the current API status call quota. [See what each response means under the sample response example](https://api.jotform.com/docs/#user-usage). There is a refresh button so you can refresh the current data limit.
 
 ## Push Notification Window
 
