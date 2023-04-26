@@ -1,70 +1,34 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Event Push Notification Control Panel
 
-In the project directory, you can run:
+This is a ReactJS-based control panel that uses the JotForm API to receive push notifications and broadcast them to all users watching a live stream. This Readme provides a guide to the control panel's functionality and features.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Manage Live Notifications](#manage-live-notifications)
+- [API Testing](#api-testing)
+- [API Usage Log](#api-usage-log)
+- [Push Notification Window](#push-notification-window)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Manage Live Notifications
 
-### `npm test`
+In this window, you can manage your live notifications. Here you can find the "Send Message" and "Delete Notifications" buttons. The "Send Message" button opens a pop-up window where you can send messages. The "Delete Notifications" button deletes all previous push notifications, so late attendees won't be bombarded with a bunch of notifications from earlier in the morning.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## API Testing
 
-### `npm run build`
+In this window, you will find a string for the last push notification you sent. The current API status is also displayed, so if you've deleted messages, it will reflect that here, and if you've just received a notification, that will also be reflected here. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+There are two buttons here: "Start Searching" and "Stop Searching." The "Start Searching" button allows you to start searching for new messages and emulates the experience of the user/client. The "Stop Searching" button stops this functionality. The main use here is so you don't have it constantly searching and saving API calls.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API Usage Log
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In this window, you can view a log of the current API status call quota. You can also see an image of the API Jotform quota. There is a refresh button so you can refresh the current data limit.
 
-### `npm run eject`
+## Push Notification Window
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+In this window, you will see the push notification. This is basically where your emulated experience of the user will reside. Although it has added functionality where you can edit the text upon click, for testing purposes (if you wish to see what the message looks like longer, etc.). This does not affect the user whatsoever.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Conclusion
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+That's all for the Event Push Notification Control Panel! We hope you find it useful and easy to use. If you have any feedback or suggestions, please let us know!
